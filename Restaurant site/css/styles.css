@@ -1,0 +1,65 @@
+
+
+
+nav{
+	background-color: #000000;
+}
+
+.container-fluid{
+	position: relative;
+
+}
+.navbar-header button.navbar-toggle {
+  border: 1px solid #ffffff;
+}
+
+button{
+	background-color: white;
+	position:absolute;
+	top:0px;
+	right:0px;
+	right: 20px;
+	top:25px;
+}
+h1 {
+	color: white;
+	font-size: 1.5em;
+}
+h2{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+h3{
+	color:white;
+	font-size: 0.8em;
+}
+
+#main-content{
+	margin-bottom: 10px;
+}
+
+h3.titlecard{
+	font-size: 1.7em;
+	color:white;
+	padding-top: 5px;
+}
+
+p.contents{
+	color: white;
+	box-sizing: border-box;
+	padding: 0px 10px 20px 10px;
+}
+
+.col-xs-12{
+	margin-bottom: 20px;
+	background-color: black;
+	margin-right: 5px;
+	margin-left: 5px;
+	height: 1000px;
+}
+
+@media (min-width: 768px){
+  .navbar-expand-lg .navbar-toggle,.navbar-nav{
+    display: none;
+}
+ }
